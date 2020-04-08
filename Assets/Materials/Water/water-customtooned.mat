@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8744943776171672167
+--- !u!114 &-4587181890963206533
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water-Displaced
-  m_Shader: {fileID: -6465566751694194690, guid: 5a805fbaf2407c3488e495a2683482a5,
+  m_Name: water-customtooned
+  m_Shader: {fileID: -6465566751694194690, guid: 7e2ffcff956d2f14b8e0a1dd9522395d,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -33,14 +33,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_33B2505A:
-        m_Texture: {fileID: 2800000, guid: f011f76a81f86b14e86e9e221965030a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_DEC894AE:
-        m_Texture: {fileID: 2800000, guid: 8afa482c412b4af4c807fde9cc517dc5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -65,31 +57,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2DLOD_2D76DC39_Texture_1:
-        m_Texture: {fileID: 2800000, guid: f011f76a81f86b14e86e9e221965030a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2DLOD_D7D56808_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 8afa482c412b4af4c807fde9cc517dc5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_4E964E85_Texture_1:
-        m_Texture: {fileID: 2800000, guid: f011f76a81f86b14e86e9e221965030a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_5C244130_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 8afa482c412b4af4c807fde9cc517dc5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_39E70FDB: 0.06
-    - Vector1_A7CC33F6: 0.04
-    - Vector1_BBDB4055: 6.48
-    - Vector1_E7065984: 0.1
+    - Vector1_7A900AF0: 0.48
+    - Vector1_9552FECF: 0.06
+    - Vector1_A369F025: 0.86
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -112,9 +87,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_27F6704A: {r: 0, g: 0.020196663, b: 0.1509434, a: 1}
-    - Color_95C76D6A: {r: 0, g: 0.178743, b: 0.5471698, a: 1}
-    - _BaseColor: {r: 0.32128873, g: 0.7169812, b: 0.46633583, a: 1}
+    - Color_EAC7BAA7: {r: 0, g: 1.1921569, b: 2, a: 0}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
